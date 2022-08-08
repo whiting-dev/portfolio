@@ -1,5 +1,9 @@
 import React from 'react';
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
+import {
+  AiFillGithub,
+  AiFillInstagram,
+  AiFillLinkedin,
+} from 'react-icons/ai';
 
 import { SocialIcons } from '../Header/HeaderStyles';
 import {
@@ -20,11 +24,15 @@ const Footer = () => {
       <LinkList>
         <LinkColumn>
           <LinkTitle>Call</LinkTitle>
-          <LinkItem href='tel:734-925-6488'>734-925-6488</LinkItem>
+          <LinkItem href='tel:810-243-3028'>
+            810-243-3028
+          </LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href='mailto:whiting.dev@gmail.com'>whiting.dev@gmail.com</LinkItem>
+          <LinkItem href='mailto:whiting.dev@gmail.com'>
+            whiting.dev@gmail.com
+          </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>

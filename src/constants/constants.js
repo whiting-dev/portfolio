@@ -37,8 +37,7 @@ export const projects = [
     image: '/images/4.png',
     tags: ['Next', 'DynamoDB', 'AWS Amplify'],
     source: 'https://github.com/whiting-dev/redditclone',
-    visit:
-      'https://redditclone-m790h037v-whiting-dev.vercel.app/',
+    visit: 'https://redditclone-zeta.vercel.app/',
     id: 3,
   },
 ];
